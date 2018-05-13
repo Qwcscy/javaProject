@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="javaHos:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/javaHos_jar</output-path>
+    <root id="archive" name="javaHos.jar">
+      <element id="module-output" name="javaHos" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/mysql.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

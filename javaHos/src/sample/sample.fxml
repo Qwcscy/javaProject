@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="458.0" prefWidth="623.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label layoutX="112.0" layoutY="161.0" />
+      <Label layoutX="143.0" layoutY="142.0" prefHeight="39.0" prefWidth="48.0" text="编号">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="userName" layoutX="211.0" layoutY="146.0" />
+      <PasswordField fx:id="passWord" layoutX="211.0" layoutY="223.0" />
+      <Label layoutX="143.0" layoutY="219.0" prefHeight="39.0" prefWidth="48.0" text="密码">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Button fx:id="D_LOGIN" layoutX="329.0" layoutY="306.0" mnemonicParsing="false" text="医生登录" />
+      <Button fx:id="P_LOGIN" layoutX="211.0" layoutY="306.0" mnemonicParsing="false" text="病人登陆" />
+   </children>
+</Pane>

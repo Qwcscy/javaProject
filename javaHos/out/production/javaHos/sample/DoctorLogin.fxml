@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<AnchorPane prefHeight="472.0" prefWidth="541.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.docLoginController">
+   <children>
+      <TabPane layoutX="-4.0" prefHeight="481.0" prefWidth="660.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab fx:id="PATIENT" text="病人列表">
+               <content>
+                  <TableView fx:id="pListTable" prefHeight="571.0" prefWidth="589.0">
+                     <padding>
+                        <Insets top="10.0" />
+                     </padding></TableView>
+               </content></Tab>
+          <Tab fx:id="INCOME" text="收入列表">
+               <content>
+                  <SplitPane dividerPositions="0.5" orientation="VERTICAL" prefHeight="449.0" prefWidth="731.0">
+                    <items>
+                      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="0.0" minWidth="0.0" prefHeight="40.0" prefWidth="652.0">
+                           <children>
+                              <Label layoutX="7.0" layoutY="12.0" text="起始时间" />
+                              <Label layoutX="276.0" layoutY="12.0" prefHeight="20.0" prefWidth="70.0" text="截止时间" />
+                              <TextField fx:id="START" layoutX="67.0" layoutY="7.0" />
+                              <TextField fx:id="END" layoutX="338.0" layoutY="7.0" />
+                              <Button fx:id="FIND" layoutX="569.0" layoutY="5.0" mnemonicParsing="false" text="查询" />
+                           </children>
+                        </AnchorPane>
+                        <TableView fx:id="incomeTable" prefHeight="439.0" prefWidth="676.0" />
+                    </items>
+                  </SplitPane>
+               </content></Tab>
+            <Tab fx:id="LOGOUT" text="退出系统" />
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

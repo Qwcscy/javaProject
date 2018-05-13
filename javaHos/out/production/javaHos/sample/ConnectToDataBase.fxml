@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<AnchorPane prefHeight="546.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.connectToDbController">
+   <children>
+      <TextField fx:id="URL" layoutX="167.0" layoutY="149.0" prefHeight="30.0" prefWidth="267.0" />
+      <Label layoutX="132.0" layoutY="154.0" text="url" />
+      <Label layoutX="210.0" layoutY="74.0" prefHeight="38.0" prefWidth="243.0" text="连接到数据库">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="113.0" layoutY="211.0" text="user" />
+      <TextField fx:id="USER" layoutX="167.0" layoutY="206.0" prefHeight="30.0" prefWidth="267.0" />
+      <Label layoutX="79.0" layoutY="273.0" text="password" />
+      <TextField fx:id="PW" layoutX="167.0" layoutY="268.0" prefHeight="30.0" prefWidth="267.0" />
+      <Label layoutX="113.0" layoutY="344.0" text="Driver" />
+      <TextField fx:id="DRIVER" layoutX="167.0" layoutY="339.0" prefHeight="30.0" prefWidth="267.0" />
+      <Button fx:id="SURE" layoutX="263.0" layoutY="422.0" mnemonicParsing="false" text="确定" />
+   </children>
+</AnchorPane>
